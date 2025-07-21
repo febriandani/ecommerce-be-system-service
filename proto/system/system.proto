@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+package system;
+
+option go_package = "github.com/febriandani/ecommerce-be-system-service/proto/system";
+
+import "google/protobuf/any.proto";
+import "google/api/annotations.proto";
+
+message Provinces {
+  int64 id = 1 [json_name = "id"];
+  string name = 2 [json_name = "name"];
+}
+
+message Filter {
+  string search = 1 [json_name = "search"];
+  int64 page = 2 [json_name = "page"];
+  int64 limit = 3 [json_name = "limit"];
+  string traceId = 4 [json_name = "trace_id"];
+}
+
+message Meta {
+  int32 code = 1;
+  string status = 2;
+  string message = 3;
+  string internal_message = 4;
+  google.protobuf.Any data = 5;
+  string trace_id = 6;
+}
+
+message EmptyResponse {
+  Meta meta = 1;
+}
+
+message ProvincesList {
+  repeated Provinces provinces = 1 [json_name = "provinces"];
+}
+
+message ProvincesResponse {
+  Meta meta = 1;
+  ProvincesList data = 2;
+}
+
+service Systems {
+  rpc GetProvinces(Filter) returns (ProvincesResponse) {
+    option (google.api.http) = {
+      get: "/api/provinces"
+    };
+  }
+}

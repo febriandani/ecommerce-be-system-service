@@ -1,0 +1,156 @@
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-06-29 00:17:45"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-06-29 00:17:45"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started on :4441",
+  "time": "2025-06-29 00:17:45"
+}
+{
+  "level": "info",
+  "msg": "Api [GetTemplate] started",
+  "request": {
+    "code": "OTP_REASON_REGISTRATION",
+    "channel": "whatsapp",
+    "traceId": "c1fc391e-1f55-4ab2-8eae-05b7d98d744b"
+  },
+  "time": "2025-06-29 00:52:50",
+  "traceID": "c1fc391e-1f55-4ab2-8eae-05b7d98d744b"
+}
+{
+  "level": "info",
+  "msg": "Api [GetTemplate] started processing",
+  "request": {
+    "code": "OTP_REASON_REGISTRATION",
+    "channel": "whatsapp",
+    "traceId": "c1fc391e-1f55-4ab2-8eae-05b7d98d744b"
+  },
+  "time": "2025-06-29 00:52:50",
+  "traceID": "c1fc391e-1f55-4ab2-8eae-05b7d98d744b"
+}
+{
+  "level": "info",
+  "msg": "Api [GetTemplate] finished successfully",
+  "request": {
+    "code": "OTP_REASON_REGISTRATION",
+    "channel": "whatsapp",
+    "traceId": "c1fc391e-1f55-4ab2-8eae-05b7d98d744b"
+  },
+  "time": "2025-06-29 00:52:50",
+  "traceID": "c1fc391e-1f55-4ab2-8eae-05b7d98d744b"
+}
+{
+  "level": "info",
+  "msg": "Api [SendNotification] started",
+  "request": "62895331276346",
+  "time": "2025-06-29 00:52:50",
+  "traceID": "c1fc391e-1f55-4ab2-8eae-05b7d98d744b"
+}
+{
+  "level": "info",
+  "msg": "Api [SendNotification] WhatsApp sent successfully",
+  "request": "62895331276346",
+  "time": "2025-06-29 00:52:50",
+  "traceID": "c1fc391e-1f55-4ab2-8eae-05b7d98d744b"
+}
+{
+  "level": "info",
+  "msg": "Api [GetTemplate] started",
+  "request": {
+    "code": "OTP_REASON_REGISTRATION",
+    "channel": "whatsapp",
+    "traceId": "7e2772a3-d803-405b-81aa-a1989a61c969"
+  },
+  "time": "2025-06-29 00:53:29",
+  "traceID": "7e2772a3-d803-405b-81aa-a1989a61c969"
+}
+{
+  "level": "info",
+  "msg": "Api [GetTemplate] started processing",
+  "request": {
+    "code": "OTP_REASON_REGISTRATION",
+    "channel": "whatsapp",
+    "traceId": "7e2772a3-d803-405b-81aa-a1989a61c969"
+  },
+  "time": "2025-06-29 00:53:29",
+  "traceID": "7e2772a3-d803-405b-81aa-a1989a61c969"
+}
+{
+  "level": "info",
+  "msg": "Api [GetTemplate] finished successfully",
+  "request": {
+    "code": "OTP_REASON_REGISTRATION",
+    "channel": "whatsapp",
+    "traceId": "7e2772a3-d803-405b-81aa-a1989a61c969"
+  },
+  "time": "2025-06-29 00:53:29",
+  "traceID": "7e2772a3-d803-405b-81aa-a1989a61c969"
+}
+{
+  "level": "info",
+  "msg": "Api [SendNotification] started",
+  "request": "62895331276345",
+  "time": "2025-06-29 00:53:29",
+  "traceID": "7e2772a3-d803-405b-81aa-a1989a61c969"
+}
+{
+  "level": "info",
+  "msg": "Api [SendNotification] WhatsApp sent successfully",
+  "request": "62895331276345",
+  "time": "2025-06-29 00:53:29",
+  "traceID": "7e2772a3-d803-405b-81aa-a1989a61c969"
+}
+{
+  "level": "info",
+  "msg": "Api [GetTemplate] started",
+  "request": {
+    "code": "OTP_REASON_REGISTRATION",
+    "channel": "whatsapp",
+    "traceId": "ece93bc4-489d-41aa-9480-d30a61325e9e"
+  },
+  "time": "2025-06-29 00:54:20",
+  "traceID": "ece93bc4-489d-41aa-9480-d30a61325e9e"
+}
+{
+  "level": "info",
+  "msg": "Api [GetTemplate] started processing",
+  "request": {
+    "code": "OTP_REASON_REGISTRATION",
+    "channel": "whatsapp",
+    "traceId": "ece93bc4-489d-41aa-9480-d30a61325e9e"
+  },
+  "time": "2025-06-29 00:54:20",
+  "traceID": "ece93bc4-489d-41aa-9480-d30a61325e9e"
+}
+{
+  "level": "info",
+  "msg": "Api [GetTemplate] finished successfully",
+  "request": {
+    "code": "OTP_REASON_REGISTRATION",
+    "channel": "whatsapp",
+    "traceId": "ece93bc4-489d-41aa-9480-d30a61325e9e"
+  },
+  "time": "2025-06-29 00:54:20",
+  "traceID": "ece93bc4-489d-41aa-9480-d30a61325e9e"
+}
+{
+  "level": "info",
+  "msg": "Api [SendNotification] started",
+  "request": "62895331276345",
+  "time": "2025-06-29 00:54:20",
+  "traceID": "ece93bc4-489d-41aa-9480-d30a61325e9e"
+}
+{
+  "level": "info",
+  "msg": "Api [SendNotification] WhatsApp sent successfully",
+  "request": "62895331276345",
+  "time": "2025-06-29 00:54:20",
+  "traceID": "ece93bc4-489d-41aa-9480-d30a61325e9e"
+}

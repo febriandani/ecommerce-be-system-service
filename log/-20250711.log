@@ -1,0 +1,15 @@
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-11 14:42:35"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-11 14:42:35"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started on :4441",
+  "time": "2025-07-11 14:42:35"
+}
