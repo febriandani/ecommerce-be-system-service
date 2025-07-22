@@ -12,11 +12,31 @@ message Provinces {
   string name = 2 [json_name = "name"];
 }
 
+message Regencies {
+  int64 id = 1 [json_name = "id"];
+  int64 province_id = 2 [json_name = "province_id"];
+  string name = 3 [json_name = "name"];
+}
+
+message Districts {
+  int64 id = 1 [json_name = "id"];
+  int64 regency_id = 2 [json_name = "regency_id"];
+  string name = 3 [json_name = "name"];
+}
+
+message SubDistricts {
+  int64 id = 1 [json_name = "id"];
+  int64 district_id = 2 [json_name = "regency_id"];
+  string name = 3 [json_name = "name"];
+  string postal_code = 4 [json_name = "postal_code"];
+}
+
 message Filter {
   string search = 1 [json_name = "search"];
-  int64 page = 2 [json_name = "page"];
-  int64 limit = 3 [json_name = "limit"];
-  string traceId = 4 [json_name = "trace_id"];
+  int64 id = 2 [json_name = "id"];
+  int64 page = 3 [json_name = "page"];
+  int64 limit = 4 [json_name = "limit"];
+  string traceId = 5 [json_name = "trace_id"];
 }
 
 message Meta {
@@ -41,10 +61,52 @@ message ProvincesResponse {
   ProvincesList data = 2;
 }
 
+message RegenciesList {
+  repeated Regencies regencies = 1 [json_name = "regencies"];
+}
+
+message RegenciesResponse {
+  Meta meta = 1;
+  RegenciesList data = 2;
+}
+
+message DistrictsList {
+  repeated Districts districts = 1 [json_name = "districts"];
+}
+
+message DistrictsResponse {
+  Meta meta = 1;
+  DistrictsList data = 2;
+}
+
+message SubDistrictsList {
+  repeated SubDistricts subdistricts = 1 [json_name = "subdistricts"];
+}
+
+message SubDistrictsResponse {
+  Meta meta = 1;
+  SubDistrictsList data = 2;
+}
+
 service Systems {
   rpc GetProvinces(Filter) returns (ProvincesResponse) {
     option (google.api.http) = {
       get: "/api/provinces"
+    };
+  }
+  rpc GetRegencies(Filter) returns (RegenciesResponse) {
+    option (google.api.http) = {
+      get: "/api/regencies"
+    };
+  }
+  rpc GetDistricts(Filter) returns (DistrictsResponse) {
+    option (google.api.http) = {
+      get: "/api/districts"
+    };
+  }
+  rpc GetSubDistricts(Filter) returns (SubDistrictsResponse) {
+    option (google.api.http) = {
+      get: "/api/sub-districts"
     };
   }
 }
