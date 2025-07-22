@@ -1,0 +1,188 @@
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-22 22:20:33"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-22 22:20:33"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-22 22:20:33"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-22 22:20:49",
+  "traceID": "2fa8b793-6dc3-40ab-a0a5-18cce3f97fad"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 1 provinsi",
+  "request": "",
+  "time": "2025-07-22 22:20:49",
+  "traceID": "2fa8b793-6dc3-40ab-a0a5-18cce3f97fad"
+}
+{
+  "level": "info",
+  "msg": "Api [GetRegencies] started processing",
+  "request": "",
+  "time": "2025-07-22 22:21:22",
+  "traceID": "d402316d-41bf-4a3d-8b9b-c52c0e0e5462"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 8 regency",
+  "request": "",
+  "time": "2025-07-22 22:21:22",
+  "traceID": "d402316d-41bf-4a3d-8b9b-c52c0e0e5462"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-22 22:22:29"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-22 22:22:29"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-22 22:22:29"
+}
+{
+  "level": "info",
+  "msg": "Api [GetDistricts] started processing",
+  "request": "",
+  "time": "2025-07-22 22:22:37",
+  "traceID": "b0fd0521-b8eb-4d04-91a9-eea1c4d49b40"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 7 districts",
+  "request": "",
+  "time": "2025-07-22 22:22:37",
+  "traceID": "b0fd0521-b8eb-4d04-91a9-eea1c4d49b40"
+}
+{
+  "level": "info",
+  "msg": "Api [GetSubDistricts] started processing",
+  "request": "",
+  "time": "2025-07-22 22:22:54",
+  "traceID": "6d4c9254-9462-4357-beae-3db0caf81af4"
+}
+{
+  "error": "sql: Scan error on column index 3, name \"postal_code\": converting NULL to int64 is unsupported",
+  "level": "error",
+  "msg": "Gagal ambil sub districts dari DB",
+  "request": "",
+  "time": "2025-07-22 22:22:54",
+  "traceID": "6d4c9254-9462-4357-beae-3db0caf81af4"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-22 22:23:41"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-22 22:23:41"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-22 22:23:41"
+}
+{
+  "level": "info",
+  "msg": "Api [GetSubDistricts] started processing",
+  "request": "",
+  "time": "2025-07-22 22:23:43",
+  "traceID": "2084703c-b411-43d0-ba90-e560f6c97ca1"
+}
+{
+  "error": "sql: Scan error on column index 3, name \"postal_code\": converting NULL to string is unsupported",
+  "level": "error",
+  "msg": "Gagal ambil sub districts dari DB",
+  "request": "",
+  "time": "2025-07-22 22:23:44",
+  "traceID": "2084703c-b411-43d0-ba90-e560f6c97ca1"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-22 22:24:54"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-22 22:24:54"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-22 22:24:54"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-22 22:25:34",
+  "traceID": "e904856a-572d-4557-905b-1e2a1058dc05"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-22 22:25:34",
+  "traceID": "e904856a-572d-4557-905b-1e2a1058dc05"
+}
+{
+  "level": "info",
+  "msg": "Api [GetSubDistricts] started processing",
+  "request": "",
+  "time": "2025-07-22 22:25:44",
+  "traceID": "4906b46a-97b8-4cc6-bf4f-078178fb8a94"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 6 sub districts",
+  "request": "",
+  "time": "2025-07-22 22:25:44",
+  "traceID": "4906b46a-97b8-4cc6-bf4f-078178fb8a94"
+}
+{
+  "level": "info",
+  "msg": "Api [GetSubDistricts] started processing",
+  "request": "",
+  "time": "2025-07-22 22:25:51",
+  "traceID": "0727ea18-9102-4685-97b0-d30a6f5ab341"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 2 sub districts",
+  "request": "",
+  "time": "2025-07-22 22:25:52",
+  "traceID": "0727ea18-9102-4685-97b0-d30a6f5ab341"
+}
+{
+  "level": "info",
+  "msg": "Api [GetSubDistricts] started processing",
+  "request": "",
+  "time": "2025-07-22 22:25:58",
+  "traceID": "fa377dc6-345b-480e-82b1-6596553d34d8"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 1 sub districts",
+  "request": "",
+  "time": "2025-07-22 22:25:58",
+  "traceID": "fa377dc6-345b-480e-82b1-6596553d34d8"
+}

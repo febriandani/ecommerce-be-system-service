@@ -19,7 +19,10 @@ import (
 const _ = grpc.SupportPackageIsVersion9
 
 const (
-	Systems_GetProvinces_FullMethodName = "/system.Systems/GetProvinces"
+	Systems_GetProvinces_FullMethodName    = "/system.Systems/GetProvinces"
+	Systems_GetRegencies_FullMethodName    = "/system.Systems/GetRegencies"
+	Systems_GetDistricts_FullMethodName    = "/system.Systems/GetDistricts"
+	Systems_GetSubDistricts_FullMethodName = "/system.Systems/GetSubDistricts"
 )
 
 // SystemsClient is the client API for Systems service.
@@ -27,6 +30,9 @@ const (
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
 type SystemsClient interface {
 	GetProvinces(ctx context.Context, in *Filter, opts ...grpc.CallOption) (*ProvincesResponse, error)
+	GetRegencies(ctx context.Context, in *Filter, opts ...grpc.CallOption) (*RegenciesResponse, error)
+	GetDistricts(ctx context.Context, in *Filter, opts ...grpc.CallOption) (*DistrictsResponse, error)
+	GetSubDistricts(ctx context.Context, in *Filter, opts ...grpc.CallOption) (*SubDistrictsResponse, error)
 }
 
 type systemsClient struct {
@@ -47,11 +53,44 @@ func (c *systemsClient) GetProvinces(ctx context.Context, in *Filter, opts ...gr
 	return out, nil
 }
 
+func (c *systemsClient) GetRegencies(ctx context.Context, in *Filter, opts ...grpc.CallOption) (*RegenciesResponse, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(RegenciesResponse)
+	err := c.cc.Invoke(ctx, Systems_GetRegencies_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *systemsClient) GetDistricts(ctx context.Context, in *Filter, opts ...grpc.CallOption) (*DistrictsResponse, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(DistrictsResponse)
+	err := c.cc.Invoke(ctx, Systems_GetDistricts_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *systemsClient) GetSubDistricts(ctx context.Context, in *Filter, opts ...grpc.CallOption) (*SubDistrictsResponse, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(SubDistrictsResponse)
+	err := c.cc.Invoke(ctx, Systems_GetSubDistricts_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
 // SystemsServer is the server API for Systems service.
 // All implementations must embed UnimplementedSystemsServer
 // for forward compatibility.
 type SystemsServer interface {
 	GetProvinces(context.Context, *Filter) (*ProvincesResponse, error)
+	GetRegencies(context.Context, *Filter) (*RegenciesResponse, error)
+	GetDistricts(context.Context, *Filter) (*DistrictsResponse, error)
+	GetSubDistricts(context.Context, *Filter) (*SubDistrictsResponse, error)
 	mustEmbedUnimplementedSystemsServer()
 }
 
@@ -64,6 +103,15 @@ type UnimplementedSystemsServer struct{}
 
 func (UnimplementedSystemsServer) GetProvinces(context.Context, *Filter) (*ProvincesResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method GetProvinces not implemented")
+}
+func (UnimplementedSystemsServer) GetRegencies(context.Context, *Filter) (*RegenciesResponse, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method GetRegencies not implemented")
+}
+func (UnimplementedSystemsServer) GetDistricts(context.Context, *Filter) (*DistrictsResponse, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method GetDistricts not implemented")
+}
+func (UnimplementedSystemsServer) GetSubDistricts(context.Context, *Filter) (*SubDistrictsResponse, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method GetSubDistricts not implemented")
 }
 func (UnimplementedSystemsServer) mustEmbedUnimplementedSystemsServer() {}
 func (UnimplementedSystemsServer) testEmbeddedByValue()                 {}
@@ -104,6 +152,60 @@ func _Systems_GetProvinces_Handler(srv interface{}, ctx context.Context, dec fun
 	return interceptor(ctx, in, info, handler)
 }
 
+func _Systems_GetRegencies_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(Filter)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(SystemsServer).GetRegencies(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: Systems_GetRegencies_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(SystemsServer).GetRegencies(ctx, req.(*Filter))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _Systems_GetDistricts_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(Filter)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(SystemsServer).GetDistricts(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: Systems_GetDistricts_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(SystemsServer).GetDistricts(ctx, req.(*Filter))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _Systems_GetSubDistricts_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(Filter)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(SystemsServer).GetSubDistricts(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: Systems_GetSubDistricts_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(SystemsServer).GetSubDistricts(ctx, req.(*Filter))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
 // Systems_ServiceDesc is the grpc.ServiceDesc for Systems service.
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
@@ -114,6 +216,18 @@ var Systems_ServiceDesc = grpc.ServiceDesc{
 		{
 			MethodName: "GetProvinces",
 			Handler:    _Systems_GetProvinces_Handler,
+		},
+		{
+			MethodName: "GetRegencies",
+			Handler:    _Systems_GetRegencies_Handler,
+		},
+		{
+			MethodName: "GetDistricts",
+			Handler:    _Systems_GetDistricts_Handler,
+		},
+		{
+			MethodName: "GetSubDistricts",
+			Handler:    _Systems_GetSubDistricts_Handler,
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
