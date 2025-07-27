@@ -57,6 +57,7 @@ type Database interface {
 	Select(dest interface{}, query string, args ...interface{}) error
 	Query(query string, args ...interface{}) (*sql.Rows, error)
 	QueryRow(ctx context.Context, query string, args ...interface{}) *sql.Row
+	Ping() error
 	// QueryRowSqlx(query string, args ...interface{}) *sqlx.Row
 	// QueryContext(ctx context.Context, query string, args ...interface{}) (*sql.Rows, error)
 	// GetContext(ctx context.Context, dest interface{}, query string, args ...interface{}) error
@@ -152,4 +153,11 @@ func (d *DBHandler) QueryRow(ctx context.Context, query string, args ...interfac
 func (d *DBHandler) GetContext(ctx context.Context, dest interface{}, query string, args ...interface{}) error {
 	err := d.DB.GetContext(ctx, dest, query, args...)
 	return err
+}
+
+func (d *DBHandler) Ping() error {
+	if d.DB == nil {
+		return sql.ErrConnDone
+	}
+	return d.DB.Ping()
 }

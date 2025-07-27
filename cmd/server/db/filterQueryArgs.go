@@ -23,6 +23,8 @@ func BuildQueryStatementGetFilterProvinces(baseQuery string, filter *systemPb.Fi
 	if filter.Page != 0 && filter.Limit != 0 {
 		baseQuery += " OFFSET ((? - 1) * ?) ROWS FETCH NEXT ? ROWS ONLY"
 		args = append(args, filter.Page, filter.Limit, filter.Limit)
+	} else {
+		baseQuery += " OFFSET ((1 - 1) * 10) ROWS FETCH NEXT 10 ROWS ONLY"
 	}
 
 	return baseQuery, args
@@ -50,6 +52,8 @@ func BuildQueryStatementGetFilterRegencies(baseQuery string, filter *systemPb.Fi
 	if filter.Page != 0 && filter.Limit != 0 {
 		baseQuery += " OFFSET ((? - 1) * ?) ROWS FETCH NEXT ? ROWS ONLY"
 		args = append(args, filter.Page, filter.Limit, filter.Limit)
+	} else {
+		baseQuery += " OFFSET ((1 - 1) * 10) ROWS FETCH NEXT 10 ROWS ONLY"
 	}
 
 	return baseQuery, args
@@ -77,6 +81,8 @@ func BuildQueryStatementGetFilterDistricts(baseQuery string, filter *systemPb.Fi
 	if filter.Page != 0 && filter.Limit != 0 {
 		baseQuery += " OFFSET ((? - 1) * ?) ROWS FETCH NEXT ? ROWS ONLY"
 		args = append(args, filter.Page, filter.Limit, filter.Limit)
+	} else {
+		baseQuery += " OFFSET ((1 - 1) * 10) ROWS FETCH NEXT 10 ROWS ONLY"
 	}
 
 	return baseQuery, args
@@ -104,6 +110,8 @@ func BuildQueryStatementGetFilterSubDistricts(baseQuery string, filter *systemPb
 	if filter.Page != 0 && filter.Limit != 0 {
 		baseQuery += " OFFSET ((? - 1) * ?) ROWS FETCH NEXT ? ROWS ONLY"
 		args = append(args, filter.Page, filter.Limit, filter.Limit)
+	} else {
+		baseQuery += " OFFSET ((1 - 1) * 10) ROWS FETCH NEXT 10 ROWS ONLY"
 	}
 
 	return baseQuery, args

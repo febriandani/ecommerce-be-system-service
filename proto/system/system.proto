@@ -6,6 +6,28 @@ option go_package = "github.com/febriandani/ecommerce-be-system-service/proto/sy
 
 import "google/protobuf/any.proto";
 import "google/api/annotations.proto";
+import "protoc-gen-openapiv2/options/annotations.proto"; // untuk Swagger/OpenAPI (optional)
+
+option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
+  info: {
+    title: "System Service API";
+    version: "1.0";
+  };
+  security_definitions: {
+    security: {
+      key: "basic";
+      value: {
+        type: TYPE_BASIC;
+        description: "Basic authentication with username and password";
+      };
+    };
+  };
+  security: {
+    security_requirement: {
+      key: "basic";
+    };
+  };
+};
 
 message Provinces {
   int64 id = 1 [json_name = "id"];
@@ -26,7 +48,7 @@ message Districts {
 
 message SubDistricts {
   int64 id = 1 [json_name = "id"];
-  int64 district_id = 2 [json_name = "regency_id"];
+  int64 district_id = 2 [json_name = "district_id"];
   string name = 3 [json_name = "name"];
   string postal_code = 4 [json_name = "postal_code"];
 }
@@ -36,7 +58,7 @@ message Filter {
   int64 id = 2 [json_name = "id"];
   int64 page = 3 [json_name = "page"];
   int64 limit = 4 [json_name = "limit"];
-  string traceId = 5 [json_name = "trace_id"];
+  string trace_id = 5 [json_name = "trace_id"];
 }
 
 message Meta {
@@ -52,61 +74,70 @@ message EmptyResponse {
   Meta meta = 1;
 }
 
-message ProvincesList {
-  repeated Provinces provinces = 1 [json_name = "provinces"];
-}
-
 message ProvincesResponse {
   Meta meta = 1;
-  ProvincesList data = 2;
-}
-
-message RegenciesList {
-  repeated Regencies regencies = 1 [json_name = "regencies"];
+  repeated Provinces data = 2;
 }
 
 message RegenciesResponse {
   Meta meta = 1;
-  RegenciesList data = 2;
-}
-
-message DistrictsList {
-  repeated Districts districts = 1 [json_name = "districts"];
+  repeated Regencies data = 2;
 }
 
 message DistrictsResponse {
   Meta meta = 1;
-  DistrictsList data = 2;
-}
-
-message SubDistrictsList {
-  repeated SubDistricts subdistricts = 1 [json_name = "subdistricts"];
+  repeated Districts data = 2;
 }
 
 message SubDistrictsResponse {
   Meta meta = 1;
-  SubDistrictsList data = 2;
+  repeated SubDistricts data = 2;
+}
+
+message HealthCheckRequest {
+  string search = 1 [json_name = "search"];
+  int64 id = 2 [json_name = "id"];
+  int64 page = 3 [json_name = "page"];
+  int64 limit = 4 [json_name = "limit"];
+  string trace_id = 5 [json_name = "trace_id"];
+}
+
+message HealthCheckResponse {
+  Meta meta = 1;
 }
 
 service Systems {
+  rpc HealthCheck(HealthCheckRequest) returns (HealthCheckResponse) {
+    option (google.api.http) = {
+      get: "/api/health"
+    };
+  }
+
   rpc GetProvinces(Filter) returns (ProvincesResponse) {
     option (google.api.http) = {
-      get: "/api/provinces"
+      post: "/api/provinces"
+      body: "*"
     };
   }
+
   rpc GetRegencies(Filter) returns (RegenciesResponse) {
     option (google.api.http) = {
-      get: "/api/regencies"
+      post: "/api/regencies"
+      body: "*"
     };
   }
+
   rpc GetDistricts(Filter) returns (DistrictsResponse) {
     option (google.api.http) = {
-      get: "/api/districts"
+      post: "/api/districts"
+      body: "*"
     };
   }
+
   rpc GetSubDistricts(Filter) returns (SubDistrictsResponse) {
     option (google.api.http) = {
-      get: "/api/sub-districts"
+      post: "/api/sub-districts"
+      body: "*"
     };
   }
 }

@@ -15,8 +15,8 @@ DATABASE:
   READ:
     USERNAME: postgres
     PASSWORD: junior34
-    URL: localhost
-    PORT: 5432
+    URL: host.docker.internal
+    PORT: 5001
     DB_NAME: ecommerce_system
     MAXIDLECONNS: 5
     MAXOPENCONNS: 5
@@ -26,8 +26,8 @@ DATABASE:
   WRITE:
     USERNAME: postgres
     PASSWORD: junior34
-    URL: localhost
-    PORT: 5432
+    URL: host.docker.internal
+    PORT: 5001
     DB_NAME: ecommerce_system
     MAXIDLECONNS: 5
     MAXOPENCONNS: 5
@@ -38,6 +38,13 @@ DATABASE:
 WHATSAPP-API:
   URL: https://gate.whapi.cloud/
   TOKEN: p6eoir7uqTArQAw9ZQmNf700iSpn6IKh
+
+ELASTIC_APM:
+  SERVER_URL: http://apm-server:8200
+  SERVICE_NAME: system_service
+  ENVIRONMENT: staging
+  SECRET_TOKEN: ""         # opsional, kalau pakai authentication di APM server
+  GLOBAL_LABELS: team=backend,project=ecommerce
 
 # todo implementation resources grpc when resourceexhausted
 # GRPC_MAX_CALL_RECEIVE_MESSAGE: "25"
