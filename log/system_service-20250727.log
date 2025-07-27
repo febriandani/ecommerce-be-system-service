@@ -1902,3 +1902,27 @@
   "time": "2025-07-27 16:55:32",
   "traceID": "532b6644-3a73-4ba0-8c83-70a0f9d2b870"
 }
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "164e9390-a022-49e8-b033-9d6b423199bc"
+  },
+  "time": "2025-07-27 17:05:37",
+  "traceID": "164e9390-a022-49e8-b033-9d6b423199bc"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "164e9390-a022-49e8-b033-9d6b423199bc"
+  },
+  "time": "2025-07-27 17:05:37",
+  "traceID": "164e9390-a022-49e8-b033-9d6b423199bc"
+}
