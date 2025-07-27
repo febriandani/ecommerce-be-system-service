@@ -19,6 +19,7 @@ import (
 const _ = grpc.SupportPackageIsVersion9
 
 const (
+	Systems_HealthCheck_FullMethodName     = "/system.Systems/HealthCheck"
 	Systems_GetProvinces_FullMethodName    = "/system.Systems/GetProvinces"
 	Systems_GetRegencies_FullMethodName    = "/system.Systems/GetRegencies"
 	Systems_GetDistricts_FullMethodName    = "/system.Systems/GetDistricts"
@@ -29,6 +30,7 @@ const (
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
 type SystemsClient interface {
+	HealthCheck(ctx context.Context, in *HealthCheckRequest, opts ...grpc.CallOption) (*HealthCheckResponse, error)
 	GetProvinces(ctx context.Context, in *Filter, opts ...grpc.CallOption) (*ProvincesResponse, error)
 	GetRegencies(ctx context.Context, in *Filter, opts ...grpc.CallOption) (*RegenciesResponse, error)
 	GetDistricts(ctx context.Context, in *Filter, opts ...grpc.CallOption) (*DistrictsResponse, error)
@@ -41,6 +43,16 @@ type systemsClient struct {
 
 func NewSystemsClient(cc grpc.ClientConnInterface) SystemsClient {
 	return &systemsClient{cc}
+}
+
+func (c *systemsClient) HealthCheck(ctx context.Context, in *HealthCheckRequest, opts ...grpc.CallOption) (*HealthCheckResponse, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(HealthCheckResponse)
+	err := c.cc.Invoke(ctx, Systems_HealthCheck_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
 }
 
 func (c *systemsClient) GetProvinces(ctx context.Context, in *Filter, opts ...grpc.CallOption) (*ProvincesResponse, error) {
@@ -87,6 +99,7 @@ func (c *systemsClient) GetSubDistricts(ctx context.Context, in *Filter, opts ..
 // All implementations must embed UnimplementedSystemsServer
 // for forward compatibility.
 type SystemsServer interface {
+	HealthCheck(context.Context, *HealthCheckRequest) (*HealthCheckResponse, error)
 	GetProvinces(context.Context, *Filter) (*ProvincesResponse, error)
 	GetRegencies(context.Context, *Filter) (*RegenciesResponse, error)
 	GetDistricts(context.Context, *Filter) (*DistrictsResponse, error)
@@ -101,6 +114,9 @@ type SystemsServer interface {
 // pointer dereference when methods are called.
 type UnimplementedSystemsServer struct{}
 
+func (UnimplementedSystemsServer) HealthCheck(context.Context, *HealthCheckRequest) (*HealthCheckResponse, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method HealthCheck not implemented")
+}
 func (UnimplementedSystemsServer) GetProvinces(context.Context, *Filter) (*ProvincesResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method GetProvinces not implemented")
 }
@@ -132,6 +148,24 @@ func RegisterSystemsServer(s grpc.ServiceRegistrar, srv SystemsServer) {
 		t.testEmbeddedByValue()
 	}
 	s.RegisterService(&Systems_ServiceDesc, srv)
+}
+
+func _Systems_HealthCheck_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(HealthCheckRequest)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(SystemsServer).HealthCheck(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: Systems_HealthCheck_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(SystemsServer).HealthCheck(ctx, req.(*HealthCheckRequest))
+	}
+	return interceptor(ctx, in, info, handler)
 }
 
 func _Systems_GetProvinces_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
@@ -213,6 +247,10 @@ var Systems_ServiceDesc = grpc.ServiceDesc{
 	ServiceName: "system.Systems",
 	HandlerType: (*SystemsServer)(nil),
 	Methods: []grpc.MethodDesc{
+		{
+			MethodName: "HealthCheck",
+			Handler:    _Systems_HealthCheck_Handler,
+		},
 		{
 			MethodName: "GetProvinces",
 			Handler:    _Systems_GetProvinces_Handler,

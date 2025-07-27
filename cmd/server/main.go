@@ -11,6 +11,9 @@ import (
 	"github.com/febriandani/ecommerce-be-system-service/cmd/server/db"
 	dbinfra "github.com/febriandani/ecommerce-be-system-service/cmd/server/infra"
 	proto "github.com/febriandani/ecommerce-be-system-service/protogen/golang/proto/system"
+	"go.elastic.co/apm"
+	"go.elastic.co/apm/module/apmgrpc"
+	"go.elastic.co/apm/module/apmhttp"
 
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/spf13/viper"
@@ -62,6 +65,10 @@ func main() {
 	initConfig()
 	logger := dbinfra.NewLogger()
 
+	// Optional: set from ENV or Viper
+	apm.DefaultTracer.Service.Name = viper.GetString("APP.NAME")
+	apm.DefaultTracer.Service.Environment = viper.GetString("APP.ENV")
+
 	// Database connection
 	dbRead := dbinfra.NewDB(logger)
 	dbRead.ConnectDB(&getConfigDB().ReadUser)
@@ -85,7 +92,7 @@ func main() {
 
 	// Inisialisasi server
 	grpcPort := viper.GetInt("APP.PORT_SERVER")
-	restPort := viper.GetString("APP.PORT_REST")
+	restPort := viper.GetString("APP.PORT_CLIENT")
 
 	// Listener
 	lis, err := net.Listen("tcp", fmt.Sprintf(":%d", grpcPort))
@@ -94,7 +101,10 @@ func main() {
 	}
 
 	// gRPC server
-	grpcServer := grpc.NewServer()
+	grpcServer := grpc.NewServer(
+		grpc.UnaryInterceptor(apmgrpc.NewUnaryServerInterceptor()),
+		grpc.StreamInterceptor(apmgrpc.NewStreamServerInterceptor()),
+	)
 	systemServer := api.NewSystemServer(dbConfig, logger)
 	proto.RegisterSystemsServer(grpcServer, systemServer)
 
@@ -133,8 +143,27 @@ func startGatewayServer(grpcAddr string, restPort string) {
 		log.Fatalf("Failed to register gRPC-Gateway handler: %v", err)
 	}
 
+	// Basic auth + Elastic APM Middleware
+	baseHandler := http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		username, password, ok := r.BasicAuth()
+		if !ok || !isValidUser(username, password) {
+			w.Header().Set("WWW-Authenticate", `Basic realm="Restricted"`)
+			http.Error(w, "Unauthorized", http.StatusUnauthorized)
+			return
+		}
+		mux.ServeHTTP(w, r)
+	})
+
+	apmWrapped := apmhttp.Wrap(baseHandler) // ✅ wrap REST gateway
+
 	log.Printf("REST gateway started at :%s", restPort)
-	if err := http.ListenAndServe(":"+restPort, mux); err != nil {
+	if err := http.ListenAndServe(":"+restPort, apmWrapped); err != nil {
 		log.Fatalf("Failed to serve REST gateway: %v", err)
 	}
+}
+
+// Contoh validasi username dan password
+func isValidUser(username, password string) bool {
+	// Kamu bisa ganti ini dengan pengecekan ke database, env, atau secret manager
+	return username == "admin" && password == "secret123"
 }

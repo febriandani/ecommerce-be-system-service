@@ -1,20 +1,31 @@
-# Use an official Golang image as the base image
-FROM alpine:1.23 as builder
+# Stage 1: Builder
+FROM golang:1.23.4-alpine3.19 AS builder
 
 WORKDIR /app
 
-# Copy Go modules and download dependencies
+# Install git (needed for go mod sometimes)
+RUN apk add --no-cache git
+
+# Copy go mod files and download dependencies
 COPY go.mod go.sum ./
 RUN go mod download
 
-# Copy the rest of the application code
+# Copy the source code
 COPY . .
 
-# Build the Go application
-RUN go build -o user-service .
+# Build the application
+RUN go build -o system_service ./cmd/server/
 
-# Use a minimal base image for the final container
-FROM alpine:3.19
+# Stage 2: Runner
+FROM alpine:3.19.1
+
 WORKDIR /app
-COPY --from=builder /app/system_service .
+
+# Copy the binary from builder
+COPY --from=builder /app .
+
+# Expose port if needed (e.g., 8080)
+EXPOSE 8080
+
+# Run the binary
 CMD ["./system_service"]

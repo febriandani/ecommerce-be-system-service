@@ -7,6 +7,7 @@ import (
 	udb "github.com/febriandani/ecommerce-be-system-service/cmd/server/db"
 	"github.com/febriandani/ecommerce-be-system-service/cmd/server/utils"
 	systemPb "github.com/febriandani/ecommerce-be-system-service/protogen/golang/proto/system"
+	"github.com/gofiber/fiber/v2/log"
 	"github.com/sirupsen/logrus"
 )
 
@@ -22,12 +23,47 @@ func NewSystemServer(database *udb.DatabaseConfig, logger *logrus.Logger) *Syste
 	return &SystemServer{db: database, log: logger}
 }
 
+func (s *SystemServer) HealthCheck(ctx context.Context, request *systemPb.HealthCheckRequest) (*systemPb.HealthCheckResponse, error) {
+	if request.GetTraceId() == "" {
+		request.TraceId = utils.NewTraceID()
+	}
+
+	logger := utils.NewLoggerWithTrace(s.log, request.GetTraceId(), request)
+	logger.Info("Api [HealthCheck] started processing")
+
+	err := s.db.DB.Backend.Read.Ping()
+	if err != nil {
+		log.Error(utils.ConnectDBFail, err.Error())
+		return &systemPb.HealthCheckResponse{
+			Meta: &systemPb.Meta{
+				Code:    500,
+				Status:  "error",
+				Message: "Failed to get database connection",
+				TraceId: request.TraceId,
+			},
+		}, nil
+	}
+
+	// Simulate health check logic
+	response := &systemPb.HealthCheckResponse{
+		Meta: &systemPb.Meta{
+			Code:    200,
+			Status:  "success",
+			Message: "Service is healthy",
+			TraceId: request.TraceId,
+		},
+	}
+
+	logger.Info("Api [HealthCheck] completed successfully")
+	return response, nil
+}
+
 func (s *SystemServer) GetProvinces(ctx context.Context, request *systemPb.Filter) (*systemPb.ProvincesResponse, error) {
 	if request.GetTraceId() == "" {
 		request.TraceId = utils.NewTraceID()
 	}
 
-	logger := utils.NewLoggerWithTrace(s.log, request.GetTraceId(), "")
+	logger := utils.NewLoggerWithTrace(s.log, request.GetTraceId(), request)
 	logger.Info("Api [GetProvinces] started processing")
 
 	// Ambil data dari DB
@@ -55,7 +91,7 @@ func (s *SystemServer) GetProvinces(ctx context.Context, request *systemPb.Filte
 		})
 	}
 
-	logger.Info(fmt.Sprintf("Berhasil dapat %d provinsi", len(protoProvinces)))
+	logger.Info(fmt.Sprintf("Api [GetProvinces] Success GetProvinces, result : %v", protoProvinces))
 
 	// Return langsung ke ProvincesResponse (tanpa Any)
 	return &systemPb.ProvincesResponse{
@@ -65,9 +101,7 @@ func (s *SystemServer) GetProvinces(ctx context.Context, request *systemPb.Filte
 			Message: "provinces found",
 			TraceId: request.TraceId,
 		},
-		Data: &systemPb.ProvincesList{
-			Provinces: protoProvinces,
-		},
+		Data: protoProvinces,
 	}, nil
 }
 
@@ -76,7 +110,7 @@ func (s *SystemServer) GetRegencies(ctx context.Context, request *systemPb.Filte
 		request.TraceId = utils.NewTraceID()
 	}
 
-	logger := utils.NewLoggerWithTrace(s.log, request.GetTraceId(), "")
+	logger := utils.NewLoggerWithTrace(s.log, request.GetTraceId(), request)
 	logger.Info("Api [GetRegencies] started processing")
 
 	// Ambil data dari DB
@@ -105,7 +139,7 @@ func (s *SystemServer) GetRegencies(ctx context.Context, request *systemPb.Filte
 		})
 	}
 
-	logger.Info(fmt.Sprintf("Berhasil dapat %d regency", len(protoRegencies)))
+	logger.Info(fmt.Sprintf("Api [GetRegencies] Success GetRegencies, result : %v", protoRegencies))
 
 	// Return langsung ke ProvincesResponse (tanpa Any)
 	return &systemPb.RegenciesResponse{
@@ -115,9 +149,7 @@ func (s *SystemServer) GetRegencies(ctx context.Context, request *systemPb.Filte
 			Message: "regencies found",
 			TraceId: request.TraceId,
 		},
-		Data: &systemPb.RegenciesList{
-			Regencies: protoRegencies,
-		},
+		Data: protoRegencies,
 	}, nil
 }
 
@@ -126,7 +158,7 @@ func (s *SystemServer) GetDistricts(ctx context.Context, request *systemPb.Filte
 		request.TraceId = utils.NewTraceID()
 	}
 
-	logger := utils.NewLoggerWithTrace(s.log, request.GetTraceId(), "")
+	logger := utils.NewLoggerWithTrace(s.log, request.GetTraceId(), request)
 	logger.Info("Api [GetDistricts] started processing")
 
 	// Ambil data dari DB
@@ -155,7 +187,7 @@ func (s *SystemServer) GetDistricts(ctx context.Context, request *systemPb.Filte
 		})
 	}
 
-	logger.Info(fmt.Sprintf("Berhasil dapat %d districts", len(protoDistricts)))
+	logger.Info(fmt.Sprintf("Api [GetDistricts] Success GetDistricts, result : %v", protoDistricts))
 
 	// Return langsung ke ProvincesResponse (tanpa Any)
 	return &systemPb.DistrictsResponse{
@@ -165,9 +197,7 @@ func (s *SystemServer) GetDistricts(ctx context.Context, request *systemPb.Filte
 			Message: "districts found",
 			TraceId: request.TraceId,
 		},
-		Data: &systemPb.DistrictsList{
-			Districts: protoDistricts,
-		},
+		Data: protoDistricts,
 	}, nil
 }
 
@@ -176,7 +206,7 @@ func (s *SystemServer) GetSubDistricts(ctx context.Context, request *systemPb.Fi
 		request.TraceId = utils.NewTraceID()
 	}
 
-	logger := utils.NewLoggerWithTrace(s.log, request.GetTraceId(), "")
+	logger := utils.NewLoggerWithTrace(s.log, request.GetTraceId(), request)
 	logger.Info("Api [GetSubDistricts] started processing")
 
 	// Ambil data dari DB
@@ -205,7 +235,7 @@ func (s *SystemServer) GetSubDistricts(ctx context.Context, request *systemPb.Fi
 		})
 	}
 
-	logger.Info(fmt.Sprintf("Berhasil dapat %d sub districts", len(protoSubDistricts)))
+	logger.Info(fmt.Sprintf("Api [GetSubDistrict] Success GetSubDistrict, result : %v", protoSubDistricts))
 
 	// Return langsung ke ProvincesResponse (tanpa Any)
 	return &systemPb.SubDistrictsResponse{
@@ -215,8 +245,6 @@ func (s *SystemServer) GetSubDistricts(ctx context.Context, request *systemPb.Fi
 			Message: "sub districts found",
 			TraceId: request.TraceId,
 		},
-		Data: &systemPb.SubDistrictsList{
-			Subdistricts: protoSubDistricts,
-		},
+		Data: protoSubDistricts,
 	}, nil
 }

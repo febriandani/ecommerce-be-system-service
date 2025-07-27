@@ -1,0 +1,1904 @@
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:13:29"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:13:29"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:13:29"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:15:38"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:15:38"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:15:38"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 16:16:17",
+  "traceID": "84a3496d-31b2-4838-9fdf-26a53bc6ba77"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 1 provinsi",
+  "request": "",
+  "time": "2025-07-27 16:16:17",
+  "traceID": "84a3496d-31b2-4838-9fdf-26a53bc6ba77"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 16:16:46",
+  "traceID": "06928ba4-2508-449a-a12a-856df34b1498"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 1 provinsi",
+  "request": "",
+  "time": "2025-07-27 16:16:46",
+  "traceID": "06928ba4-2508-449a-a12a-856df34b1498"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 16:16:46",
+  "traceID": "783e7497-6dba-416b-a944-3392c085ca93"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 1 provinsi",
+  "request": "",
+  "time": "2025-07-27 16:16:46",
+  "traceID": "783e7497-6dba-416b-a944-3392c085ca93"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 16:16:47",
+  "traceID": "dc806b5b-285a-421e-b9ac-a56e08bea868"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 1 provinsi",
+  "request": "",
+  "time": "2025-07-27 16:16:47",
+  "traceID": "dc806b5b-285a-421e-b9ac-a56e08bea868"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:18:40"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:18:40"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:18:40"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 16:18:44",
+  "traceID": "9a8187dd-8129-4be7-b7c0-a9edb75b5c4e"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-27 16:18:44",
+  "traceID": "9a8187dd-8129-4be7-b7c0-a9edb75b5c4e"
+}
+{
+  "level": "info",
+  "msg": "Api [GetRegencies] started processing",
+  "request": "",
+  "time": "2025-07-27 16:19:19",
+  "traceID": "ae7d6caf-607e-405c-8ab4-d6044df83019"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 regency",
+  "request": "",
+  "time": "2025-07-27 16:19:19",
+  "traceID": "ae7d6caf-607e-405c-8ab4-d6044df83019"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:19:42"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:19:42"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:19:42"
+}
+{
+  "level": "info",
+  "msg": "Api [GetRegencies] started processing",
+  "request": "",
+  "time": "2025-07-27 16:19:43",
+  "traceID": "f1d6025e-23e1-4d32-976c-daf89504c8dd"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 regency",
+  "request": "",
+  "time": "2025-07-27 16:19:43",
+  "traceID": "f1d6025e-23e1-4d32-976c-daf89504c8dd"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:19:55"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:19:55"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:19:55"
+}
+{
+  "level": "info",
+  "msg": "Api [GetRegencies] started processing",
+  "request": "",
+  "time": "2025-07-27 16:19:56",
+  "traceID": "1b4e6ab8-babd-4eb9-83eb-bf61f7ab8665"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 regency",
+  "request": "",
+  "time": "2025-07-27 16:19:56",
+  "traceID": "1b4e6ab8-babd-4eb9-83eb-bf61f7ab8665"
+}
+{
+  "level": "info",
+  "msg": "Api [GetRegencies] started processing",
+  "request": "",
+  "time": "2025-07-27 16:19:57",
+  "traceID": "ead8024a-3f61-4715-b968-9c048ed01064"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 regency",
+  "request": "",
+  "time": "2025-07-27 16:19:57",
+  "traceID": "ead8024a-3f61-4715-b968-9c048ed01064"
+}
+{
+  "level": "info",
+  "msg": "Api [GetRegencies] started processing",
+  "request": "",
+  "time": "2025-07-27 16:19:58",
+  "traceID": "f99025b3-cead-4b84-b3fe-99b49726931d"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 regency",
+  "request": "",
+  "time": "2025-07-27 16:19:58",
+  "traceID": "f99025b3-cead-4b84-b3fe-99b49726931d"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:20:31"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:20:31"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:20:31"
+}
+{
+  "level": "info",
+  "msg": "Api [GetRegencies] started processing",
+  "request": "",
+  "time": "2025-07-27 16:20:32",
+  "traceID": "8907fb23-042c-4e05-8203-a68ba1722768"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 regency",
+  "request": "",
+  "time": "2025-07-27 16:20:32",
+  "traceID": "8907fb23-042c-4e05-8203-a68ba1722768"
+}
+{
+  "level": "info",
+  "msg": "Api [GetRegencies] started processing",
+  "request": "",
+  "time": "2025-07-27 16:20:32",
+  "traceID": "57ba7115-649c-4421-87c7-1465e9d487fb"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 regency",
+  "request": "",
+  "time": "2025-07-27 16:20:32",
+  "traceID": "57ba7115-649c-4421-87c7-1465e9d487fb"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:24:37"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:24:37"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:24:37"
+}
+{
+  "level": "info",
+  "msg": "Api [GetRegencies] started processing",
+  "request": "",
+  "time": "2025-07-27 16:24:37",
+  "traceID": "96bfa91b-4d95-44cd-9fae-2c5065eb97ff"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 regency",
+  "request": "",
+  "time": "2025-07-27 16:24:37",
+  "traceID": "96bfa91b-4d95-44cd-9fae-2c5065eb97ff"
+}
+{
+  "level": "info",
+  "msg": "Api [GetRegencies] started processing",
+  "request": "",
+  "time": "2025-07-27 16:24:37",
+  "traceID": "bb49994f-3162-441a-b6b6-364887afbf10"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 regency",
+  "request": "",
+  "time": "2025-07-27 16:24:37",
+  "traceID": "bb49994f-3162-441a-b6b6-364887afbf10"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:26:01"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:26:01"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:26:01"
+}
+{
+  "level": "info",
+  "msg": "Api [GetRegencies] started processing",
+  "request": "",
+  "time": "2025-07-27 16:26:02",
+  "traceID": "2ca84187-faab-459d-8654-b2371c51422f"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 regency",
+  "request": "",
+  "time": "2025-07-27 16:26:02",
+  "traceID": "2ca84187-faab-459d-8654-b2371c51422f"
+}
+{
+  "level": "info",
+  "msg": "Api [GetRegencies] started processing",
+  "request": "",
+  "time": "2025-07-27 16:26:03",
+  "traceID": "823c6874-16ab-4685-b5ea-565daa9be60d"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 regency",
+  "request": "",
+  "time": "2025-07-27 16:26:03",
+  "traceID": "823c6874-16ab-4685-b5ea-565daa9be60d"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 16:26:07",
+  "traceID": "8f34090a-a6e4-47ce-8502-b9d7369a12cb"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-27 16:26:07",
+  "traceID": "8f34090a-a6e4-47ce-8502-b9d7369a12cb"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:27:23"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:27:23"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:27:23"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 16:27:23",
+  "traceID": "fbae45f9-51cf-4efe-9ba4-32dd70f1df29"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-27 16:27:23",
+  "traceID": "fbae45f9-51cf-4efe-9ba4-32dd70f1df29"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 16:27:24",
+  "traceID": "ec000ad3-50d5-4001-bd0c-8cfc226ab66c"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-27 16:27:24",
+  "traceID": "ec000ad3-50d5-4001-bd0c-8cfc226ab66c"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 16:27:24",
+  "traceID": "087f8a7e-583c-427a-8316-0e504b873891"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-27 16:27:24",
+  "traceID": "087f8a7e-583c-427a-8316-0e504b873891"
+}
+{
+  "level": "info",
+  "msg": "Api [GetRegencies] started processing",
+  "request": "",
+  "time": "2025-07-27 16:27:31",
+  "traceID": "88d750b3-dd0f-47e4-954d-d1534c5429af"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 regency",
+  "request": "",
+  "time": "2025-07-27 16:27:31",
+  "traceID": "88d750b3-dd0f-47e4-954d-d1534c5429af"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:29:10"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:29:10"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:29:10"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "request": "",
+  "time": "2025-07-27 16:29:16",
+  "traceID": "191ab339-1766-4e80-8850-c6be2e7b6b00"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "request": "",
+  "time": "2025-07-27 16:29:16",
+  "traceID": "191ab339-1766-4e80-8850-c6be2e7b6b00"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "request": "",
+  "time": "2025-07-27 16:29:18",
+  "traceID": "70dc509a-5698-4cff-afb4-3abc50c531b7"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "request": "",
+  "time": "2025-07-27 16:29:18",
+  "traceID": "70dc509a-5698-4cff-afb4-3abc50c531b7"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "request": "",
+  "time": "2025-07-27 16:29:19",
+  "traceID": "f6f3ecf4-d743-48b1-a877-5bcfbd80ae38"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "request": "",
+  "time": "2025-07-27 16:29:19",
+  "traceID": "f6f3ecf4-d743-48b1-a877-5bcfbd80ae38"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "request": "",
+  "time": "2025-07-27 16:29:19",
+  "traceID": "ddfc234b-613b-41ee-90ca-107944a6e85f"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "request": "",
+  "time": "2025-07-27 16:29:19",
+  "traceID": "ddfc234b-613b-41ee-90ca-107944a6e85f"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:33:32"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:33:32"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:33:32"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "time": "2025-07-27 16:33:33"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "time": "2025-07-27 16:33:33"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "time": "2025-07-27 16:33:33"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "time": "2025-07-27 16:33:33"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "time": "2025-07-27 16:33:34"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "time": "2025-07-27 16:33:34"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "time": "2025-07-27 16:33:35"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "time": "2025-07-27 16:33:35"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "time": "2025-07-27 16:33:35"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "time": "2025-07-27 16:33:35"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "time": "2025-07-27 16:33:36"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "time": "2025-07-27 16:33:36"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "time": "2025-07-27 16:33:36"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "time": "2025-07-27 16:33:36"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "time": "2025-07-27 16:33:36"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "time": "2025-07-27 16:33:36"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "time": "2025-07-27 16:33:37"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "time": "2025-07-27 16:33:37"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "time": "2025-07-27 16:33:38"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "time": "2025-07-27 16:33:38"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "time": "2025-07-27 16:33:38"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "time": "2025-07-27 16:33:38"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "time": "2025-07-27 16:33:38"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "time": "2025-07-27 16:33:38"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] started processing",
+  "time": "2025-07-27 16:33:39"
+}
+{
+  "level": "info",
+  "msg": "Api [HealthCheck] completed successfully",
+  "time": "2025-07-27 16:33:39"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 14:12:43"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 14:19:11"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:19:18",
+  "traceID": "8e23b65e-be46-46f5-af58-0dd44a979836"
+}
+{
+  "error": "dial tcp [::1]:5432: connect: connection refused",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:19:18",
+  "traceID": "8e23b65e-be46-46f5-af58-0dd44a979836"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:19:20",
+  "traceID": "961d26ce-d426-4fac-9e7c-433a32b3a386"
+}
+{
+  "error": "dial tcp [::1]:5432: connect: connection refused",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:19:20",
+  "traceID": "961d26ce-d426-4fac-9e7c-433a32b3a386"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:19:21",
+  "traceID": "a918fc51-b3c0-403d-9b0f-66a71598a97d"
+}
+{
+  "error": "dial tcp [::1]:5432: connect: connection refused",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:19:21",
+  "traceID": "a918fc51-b3c0-403d-9b0f-66a71598a97d"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:19:21",
+  "traceID": "3ba937d9-4a68-4167-8eae-b5523eb8b614"
+}
+{
+  "error": "dial tcp [::1]:5432: connect: connection refused",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:19:21",
+  "traceID": "3ba937d9-4a68-4167-8eae-b5523eb8b614"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:19:21",
+  "traceID": "91e5e077-fd4c-4422-8e78-72285348bd55"
+}
+{
+  "error": "dial tcp [::1]:5432: connect: connection refused",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:19:21",
+  "traceID": "91e5e077-fd4c-4422-8e78-72285348bd55"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:19:22",
+  "traceID": "deb56e1a-8cf8-477f-94d8-1e426d1f8ddc"
+}
+{
+  "error": "dial tcp [::1]:5432: connect: connection refused",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:19:22",
+  "traceID": "deb56e1a-8cf8-477f-94d8-1e426d1f8ddc"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 14:20:20"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:20:41",
+  "traceID": "84959697-7ee8-4532-b069-d3bd5fd8ce3a"
+}
+{
+  "error": "dial tcp [::1]:5432: connect: connection refused",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:20:41",
+  "traceID": "84959697-7ee8-4532-b069-d3bd5fd8ce3a"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:20:41",
+  "traceID": "cc36c8cd-29b4-484f-993d-c0d18c4f4300"
+}
+{
+  "error": "dial tcp [::1]:5432: connect: connection refused",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:20:41",
+  "traceID": "cc36c8cd-29b4-484f-993d-c0d18c4f4300"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:20:41",
+  "traceID": "925cad1e-4a73-40b8-b08d-aa9ecc0e8365"
+}
+{
+  "error": "dial tcp [::1]:5432: connect: connection refused",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:20:41",
+  "traceID": "925cad1e-4a73-40b8-b08d-aa9ecc0e8365"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:20:43",
+  "traceID": "79cc9e73-a9f1-48a0-aef1-1c071feeb2b3"
+}
+{
+  "error": "dial tcp [::1]:5432: connect: connection refused",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:20:43",
+  "traceID": "79cc9e73-a9f1-48a0-aef1-1c071feeb2b3"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 14:22:13"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 14:22:13"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 14:22:13"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:22:20",
+  "traceID": "fdee7b01-ac52-4ec6-826d-e2443a63d920"
+}
+{
+  "error": "pq: relation \"master.provinces\" does not exist",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:22:20",
+  "traceID": "fdee7b01-ac52-4ec6-826d-e2443a63d920"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:36:24",
+  "traceID": "7c4be47a-bbfc-450b-965d-7a3bc5fe276c"
+}
+{
+  "error": "pq: relation \"master.provinces\" does not exist",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:36:24",
+  "traceID": "7c4be47a-bbfc-450b-965d-7a3bc5fe276c"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:45:00",
+  "traceID": "4f39addf-1ba9-4f6c-8b0b-f54f65fa51e2"
+}
+{
+  "error": "pq: relation \"master.provinces\" does not exist",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:45:00",
+  "traceID": "4f39addf-1ba9-4f6c-8b0b-f54f65fa51e2"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:45:11",
+  "traceID": "c6fdfc0e-b956-4729-b180-728b7149aaaf"
+}
+{
+  "error": "pq: relation \"master.provinces\" does not exist",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:45:11",
+  "traceID": "c6fdfc0e-b956-4729-b180-728b7149aaaf"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:52:24",
+  "traceID": "9c26f654-a57e-4452-b733-e814c9bf9d26"
+}
+{
+  "error": "pq: relation \"master.provinces\" does not exist",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:52:24",
+  "traceID": "9c26f654-a57e-4452-b733-e814c9bf9d26"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:52:29",
+  "traceID": "ddfa7bd9-f144-4f22-9b77-63627cc092c4"
+}
+{
+  "error": "pq: relation \"master.provinces\" does not exist",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:52:29",
+  "traceID": "ddfa7bd9-f144-4f22-9b77-63627cc092c4"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:55:57",
+  "traceID": "a65580a6-4ff8-4aa4-8ced-5487abdcea50"
+}
+{
+  "error": "pq: relation \"master.provinces\" does not exist",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:55:57",
+  "traceID": "a65580a6-4ff8-4aa4-8ced-5487abdcea50"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 14:55:58",
+  "traceID": "303398f3-f13c-4122-8115-435668765f6f"
+}
+{
+  "error": "pq: relation \"master.provinces\" does not exist",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 14:55:58",
+  "traceID": "303398f3-f13c-4122-8115-435668765f6f"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 15:14:56",
+  "traceID": "d75f2b81-40a6-42f4-a8d1-24c96f4143e8"
+}
+{
+  "error": "pq: relation \"master.provinces\" does not exist",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 15:14:56",
+  "traceID": "d75f2b81-40a6-42f4-a8d1-24c96f4143e8"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 15:21:45",
+  "traceID": "3fdbcced-8245-443a-9d77-94683fa64bd9"
+}
+{
+  "error": "pq: relation \"master.provinces\" does not exist",
+  "level": "error",
+  "msg": "Gagal ambil provinces dari DB",
+  "request": "",
+  "time": "2025-07-27 15:21:45",
+  "traceID": "3fdbcced-8245-443a-9d77-94683fa64bd9"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 15:24:12",
+  "traceID": "7f0488af-c667-446b-b3da-e116e4834ad9"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-27 15:24:12",
+  "traceID": "7f0488af-c667-446b-b3da-e116e4834ad9"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 15:26:07",
+  "traceID": "a3972b24-e55f-469f-95cf-32945e1eafe4"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-27 15:26:07",
+  "traceID": "a3972b24-e55f-469f-95cf-32945e1eafe4"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 15:27:50",
+  "traceID": "5d2933f8-682d-4894-a2f1-b91d2d8c9040"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-27 15:27:50",
+  "traceID": "5d2933f8-682d-4894-a2f1-b91d2d8c9040"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:28:06"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:28:06"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 22:28:06"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 15:28:10",
+  "traceID": "c9cde066-7932-4407-a828-b9b68f43bdf5"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-27 15:28:10",
+  "traceID": "c9cde066-7932-4407-a828-b9b68f43bdf5"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 15:28:11",
+  "traceID": "b2de2c5a-6431-49e2-b6cf-00de30f65a4e"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-27 15:28:11",
+  "traceID": "b2de2c5a-6431-49e2-b6cf-00de30f65a4e"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 15:28:11",
+  "traceID": "95ece325-5daa-4a61-b5d8-d4136d2fe31e"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-27 15:28:11",
+  "traceID": "95ece325-5daa-4a61-b5d8-d4136d2fe31e"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:28:28"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:28:28"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 22:28:28"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 22:28:32",
+  "traceID": "ce2054ce-be38-4153-97ee-859897613492"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-27 22:28:32",
+  "traceID": "ce2054ce-be38-4153-97ee-859897613492"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:29:37"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:29:37"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 22:29:37"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 22:29:42",
+  "traceID": "ad7c68d8-566c-4da6-9e54-7fc3744b9a87"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 10 provinsi",
+  "request": "",
+  "time": "2025-07-27 22:29:43",
+  "traceID": "ad7c68d8-566c-4da6-9e54-7fc3744b9a87"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:30:03"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:30:03"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 22:30:03"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 22:30:04",
+  "traceID": "a86f3aba-4206-406d-aa75-78b0b6eaaab9"
+}
+{
+  "level": "info",
+  "msg": "Berhasil dapat 1 provinsi",
+  "request": "",
+  "time": "2025-07-27 22:30:04",
+  "traceID": "a86f3aba-4206-406d-aa75-78b0b6eaaab9"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:31:17"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:31:17"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 22:31:17"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": "",
+  "time": "2025-07-27 22:31:19",
+  "traceID": "f8eb422d-1e9d-4913-82fc-4d2a462ba8fe"
+}
+{
+  "level": "info",
+  "msg": "Provinces found: [id:36  name:\"BANTEN\"]",
+  "time": "2025-07-27 22:31:19"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:32:11"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:32:11"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 22:32:11"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "b5bf0933-cfd8-4d4b-bdf4-77c310811fb8"
+  },
+  "time": "2025-07-27 22:32:13",
+  "traceID": "b5bf0933-cfd8-4d4b-bdf4-77c310811fb8"
+}
+{
+  "level": "info",
+  "msg": "Provinces found: [id:36  name:\"BANTEN\"]",
+  "time": "2025-07-27 22:32:13"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:33:56"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 22:33:56"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 22:33:56"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "7390f12e-4cbc-4484-b012-3e47f8d26403"
+  },
+  "time": "2025-07-27 22:33:58",
+  "traceID": "7390f12e-4cbc-4484-b012-3e47f8d26403"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36 name:\"BANTEN\"]",
+  "time": "2025-07-27 22:33:59"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 15:38:13"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 15:38:13"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 15:38:13"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 15:41:30"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 15:42:56"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 15:42:56"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 15:42:56"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 15:44:01"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 15:44:01"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 15:44:01"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "02fc5119-595d-4735-a1c7-fdb407415406"
+  },
+  "time": "2025-07-27 15:44:05",
+  "traceID": "02fc5119-595d-4735-a1c7-fdb407415406"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "time": "2025-07-27 15:44:05"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 15:50:40"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 15:52:28"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 15:52:28"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 15:52:28"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "c3a9e938-0dcd-48c8-8bbb-d317f3e94279"
+  },
+  "time": "2025-07-27 15:52:36",
+  "traceID": "c3a9e938-0dcd-48c8-8bbb-d317f3e94279"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "c3a9e938-0dcd-48c8-8bbb-d317f3e94279"
+  },
+  "time": "2025-07-27 15:52:36",
+  "traceID": "c3a9e938-0dcd-48c8-8bbb-d317f3e94279"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "83c0baaf-a8cf-4c26-b17e-e47e0d0c88ae"
+  },
+  "time": "2025-07-27 15:54:03",
+  "traceID": "83c0baaf-a8cf-4c26-b17e-e47e0d0c88ae"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "83c0baaf-a8cf-4c26-b17e-e47e0d0c88ae"
+  },
+  "time": "2025-07-27 15:54:03",
+  "traceID": "83c0baaf-a8cf-4c26-b17e-e47e0d0c88ae"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "40919a53-9ed0-4b30-b7f5-fe0dab8f1f27"
+  },
+  "time": "2025-07-27 15:56:46",
+  "traceID": "40919a53-9ed0-4b30-b7f5-fe0dab8f1f27"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "40919a53-9ed0-4b30-b7f5-fe0dab8f1f27"
+  },
+  "time": "2025-07-27 15:56:46",
+  "traceID": "40919a53-9ed0-4b30-b7f5-fe0dab8f1f27"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 23:05:36"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 23:05:46"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:12:18"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:12:18"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:12:18"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "33a29c75-55f1-4972-a878-c9cd6202edf4"
+  },
+  "time": "2025-07-27 16:12:24",
+  "traceID": "33a29c75-55f1-4972-a878-c9cd6202edf4"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "33a29c75-55f1-4972-a878-c9cd6202edf4"
+  },
+  "time": "2025-07-27 16:12:24",
+  "traceID": "33a29c75-55f1-4972-a878-c9cd6202edf4"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "1757973d-d2e4-4911-8c7b-081f97802d0d"
+  },
+  "time": "2025-07-27 16:14:39",
+  "traceID": "1757973d-d2e4-4911-8c7b-081f97802d0d"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "1757973d-d2e4-4911-8c7b-081f97802d0d"
+  },
+  "time": "2025-07-27 16:14:39",
+  "traceID": "1757973d-d2e4-4911-8c7b-081f97802d0d"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:20:52"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:20:52"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:20:52"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "640cd9e5-a500-4e81-953e-5b075584e178"
+  },
+  "time": "2025-07-27 16:21:00",
+  "traceID": "640cd9e5-a500-4e81-953e-5b075584e178"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "640cd9e5-a500-4e81-953e-5b075584e178"
+  },
+  "time": "2025-07-27 16:21:01",
+  "traceID": "640cd9e5-a500-4e81-953e-5b075584e178"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "f594c7ae-00e3-40f0-a1a3-fac3a25168b1"
+  },
+  "time": "2025-07-27 16:27:25",
+  "traceID": "f594c7ae-00e3-40f0-a1a3-fac3a25168b1"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "f594c7ae-00e3-40f0-a1a3-fac3a25168b1"
+  },
+  "time": "2025-07-27 16:27:25",
+  "traceID": "f594c7ae-00e3-40f0-a1a3-fac3a25168b1"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "f47b5689-66e1-4704-a370-b525032d1981"
+  },
+  "time": "2025-07-27 16:27:55",
+  "traceID": "f47b5689-66e1-4704-a370-b525032d1981"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "f47b5689-66e1-4704-a370-b525032d1981"
+  },
+  "time": "2025-07-27 16:27:55",
+  "traceID": "f47b5689-66e1-4704-a370-b525032d1981"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "e5e7a0a8-bc2b-441a-ab35-7d43b0dcd562"
+  },
+  "time": "2025-07-27 16:28:41",
+  "traceID": "e5e7a0a8-bc2b-441a-ab35-7d43b0dcd562"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "e5e7a0a8-bc2b-441a-ab35-7d43b0dcd562"
+  },
+  "time": "2025-07-27 16:28:41",
+  "traceID": "e5e7a0a8-bc2b-441a-ab35-7d43b0dcd562"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "e440b04a-8001-4058-829b-09b0b3f15fa0"
+  },
+  "time": "2025-07-27 16:28:44",
+  "traceID": "e440b04a-8001-4058-829b-09b0b3f15fa0"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "e440b04a-8001-4058-829b-09b0b3f15fa0"
+  },
+  "time": "2025-07-27 16:28:44",
+  "traceID": "e440b04a-8001-4058-829b-09b0b3f15fa0"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "c7115fd6-12a0-4478-bf78-e4f0fe27f210"
+  },
+  "time": "2025-07-27 16:31:44",
+  "traceID": "c7115fd6-12a0-4478-bf78-e4f0fe27f210"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "c7115fd6-12a0-4478-bf78-e4f0fe27f210"
+  },
+  "time": "2025-07-27 16:31:44",
+  "traceID": "c7115fd6-12a0-4478-bf78-e4f0fe27f210"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "54383452-762b-4a4b-a247-0c85502b2991"
+  },
+  "time": "2025-07-27 16:33:24",
+  "traceID": "54383452-762b-4a4b-a247-0c85502b2991"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "54383452-762b-4a4b-a247-0c85502b2991"
+  },
+  "time": "2025-07-27 16:33:24",
+  "traceID": "54383452-762b-4a4b-a247-0c85502b2991"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "d65128ea-94c5-4fa2-8f0c-34a02ffe9942"
+  },
+  "time": "2025-07-27 16:33:25",
+  "traceID": "d65128ea-94c5-4fa2-8f0c-34a02ffe9942"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "d65128ea-94c5-4fa2-8f0c-34a02ffe9942"
+  },
+  "time": "2025-07-27 16:33:25",
+  "traceID": "d65128ea-94c5-4fa2-8f0c-34a02ffe9942"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "684ce806-1698-4750-a14d-fd89a502f7b3"
+  },
+  "time": "2025-07-27 16:35:52",
+  "traceID": "684ce806-1698-4750-a14d-fd89a502f7b3"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "684ce806-1698-4750-a14d-fd89a502f7b3"
+  },
+  "time": "2025-07-27 16:35:52",
+  "traceID": "684ce806-1698-4750-a14d-fd89a502f7b3"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "4b9664c3-9b89-4336-a98b-e4ff8c3288ee"
+  },
+  "time": "2025-07-27 16:36:19",
+  "traceID": "4b9664c3-9b89-4336-a98b-e4ff8c3288ee"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "4b9664c3-9b89-4336-a98b-e4ff8c3288ee"
+  },
+  "time": "2025-07-27 16:36:19",
+  "traceID": "4b9664c3-9b89-4336-a98b-e4ff8c3288ee"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "4536edcc-f6c6-4971-8874-7c008f3ca777"
+  },
+  "time": "2025-07-27 16:36:20",
+  "traceID": "4536edcc-f6c6-4971-8874-7c008f3ca777"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "4536edcc-f6c6-4971-8874-7c008f3ca777"
+  },
+  "time": "2025-07-27 16:36:20",
+  "traceID": "4536edcc-f6c6-4971-8874-7c008f3ca777"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:39:27"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:39:27"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:39:27"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "763ae8ba-98cc-4479-bed9-d0e27293e8cc"
+  },
+  "time": "2025-07-27 16:39:37",
+  "traceID": "763ae8ba-98cc-4479-bed9-d0e27293e8cc"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "763ae8ba-98cc-4479-bed9-d0e27293e8cc"
+  },
+  "time": "2025-07-27 16:39:37",
+  "traceID": "763ae8ba-98cc-4479-bed9-d0e27293e8cc"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:43:03"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:43:03"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:43:03"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "314ca3f1-a6b2-40f7-af41-8ba98374e2e4"
+  },
+  "time": "2025-07-27 16:43:05",
+  "traceID": "314ca3f1-a6b2-40f7-af41-8ba98374e2e4"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "314ca3f1-a6b2-40f7-af41-8ba98374e2e4"
+  },
+  "time": "2025-07-27 16:43:05",
+  "traceID": "314ca3f1-a6b2-40f7-af41-8ba98374e2e4"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "7ae48126-936c-4413-a7b5-802c3a4c2abc"
+  },
+  "time": "2025-07-27 16:47:17",
+  "traceID": "7ae48126-936c-4413-a7b5-802c3a4c2abc"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "7ae48126-936c-4413-a7b5-802c3a4c2abc"
+  },
+  "time": "2025-07-27 16:47:17",
+  "traceID": "7ae48126-936c-4413-a7b5-802c3a4c2abc"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:55:28"
+}
+{
+  "level": "info",
+  "msg": "Connected to DB",
+  "time": "2025-07-27 16:55:28"
+}
+{
+  "level": "info",
+  "msg": "gRPC server started at :4442",
+  "time": "2025-07-27 16:55:28"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] started processing",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "532b6644-3a73-4ba0-8c83-70a0f9d2b870"
+  },
+  "time": "2025-07-27 16:55:32",
+  "traceID": "532b6644-3a73-4ba0-8c83-70a0f9d2b870"
+}
+{
+  "level": "info",
+  "msg": "Api [GetProvinces] Success GetProvinces, result : [id:36  name:\"BANTEN\"]",
+  "request": {
+    "search": "banten",
+    "page": 1,
+    "limit": 1,
+    "trace_id": "532b6644-3a73-4ba0-8c83-70a0f9d2b870"
+  },
+  "time": "2025-07-27 16:55:32",
+  "traceID": "532b6644-3a73-4ba0-8c83-70a0f9d2b870"
+}

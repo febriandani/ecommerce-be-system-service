@@ -167,6 +167,8 @@ func (dc *DatabaseConfig) GetSubDistricts(ctx context.Context, request *systemPb
 
 	log.Println("GetProvinces query:", query, "args:", args)
 
+	dc.DB.Backend.Read.Close()
+
 	var result []systemPb.SubDistricts
 	for _, p := range tplDB {
 		result = append(result, systemPb.SubDistricts{
